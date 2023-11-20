@@ -1,0 +1,8 @@
+#cloud-config
+users:
+ - name: agvido
+   groups: sudo
+   shell: /bin/bash
+   sudo: ['ALL=(ALL) NOPASSWD:ALL']
+   ssh-authorized-keys:
+     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCjORlHQvtfhxxOTOABs9z4BTyIQgM8Z5VEoveE+D9PrB/ly58lEHGgTIWDfT9m8D6oG/JF64gHeKlCd7vF177Prokojz9i005Bwx5oECsB4QePya5lg0+BLQQ5KCkeJxLIEb9wn9Zaq8QIqXTQWzvBEY63Cnqr5JgyFldA4kGrPL+UQmaeXce4uNYH8CnvVRazvISGDFr5z5lHMDYmTwHAVyIxOGinyT+E+YjROMg8gpkkdnIkddIjBedO2IecXpR2G5+PrfHd1bwAhbxH1CkdDclCO/harGykGEXGCAdQQe/B4CHgJ1ojTBWjisSKlS7TbnM8iCJWXxsDkF2kSVyvYO7DqdbhqNvVkdWQazVn4m2iacJdhI4etBJbp6YyjeI37X1HGZ0ZPuq9Lomhywm7m7GlqwxVK/G7q5B5GUpF/N8B3nIBQP5Idr8FUttbaqWg8eXklxJbIRPRN6BQjJ/warj/ICRVAcQhQt0Ekhrjs42Nw8AAJULZ8BJT5ugDVMM= aquana\zaytsev@SPB09
